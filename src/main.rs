@@ -11,7 +11,7 @@ fn main () {
         }
     }
 
-    // if we didnt want to use all of the other possible cases it saves us from builer plate _ => () code.
+    // if we didnt want to use all of the other possible cases it saves us from builer plate _ => () code if else is not used. 
     if let Some(phone) = gaurav_phone {
         println!("gaurav's number is {phone}");
     }
